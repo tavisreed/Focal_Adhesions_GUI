@@ -10,7 +10,8 @@ This is a github for the a trained neural network for the segmentation of focal 
 
 4. Place the images you want to be segmented and tracked in the Raw_Images folder within their own named folder. Don't use spaces in the folder name (For example use "New_Images" instead of "New Images". The images themselves should have one channel, and be numbered numerically from first to last frame.
 
-5. In the GUI, use the checkboxes to select what you want to have happen. For example, check "Segment Images" and "Track Segmented Images" to segement and track focal adhesions.
+5. Run GUI.py. In the GUI, use the checkboxes to select what you want to have happen. For example, check "Segment Images" and "Track Segmented Images" to segement and track focal adhesions.
+
 6. Whenever you are asked for a name in the GUI, be sure to use something unique, as the program will overwrite any existing files with the same name.
 
 7. When you are asked for a folder path, if you only need to provide name of the folder you created. So for example, if you stored your raw images in "Foo", simply type "Foo" as the path. If you have multiple layers of folders, then provide that path. So to reach folder "Banana" within "Foo", type the path as "Foo\\Banana".
